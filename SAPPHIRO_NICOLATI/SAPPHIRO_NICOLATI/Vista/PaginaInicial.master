@@ -16,7 +16,6 @@
         
         </asp:ContentPlaceHolder>
     </div>
-        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
     </form>
 </body>
 </html>
