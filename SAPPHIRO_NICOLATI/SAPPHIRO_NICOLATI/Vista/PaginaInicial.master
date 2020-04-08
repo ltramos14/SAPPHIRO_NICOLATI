@@ -45,38 +45,44 @@
         height: 146px;
     }
     
+    .auto-style6 {
+        left: 0px;
+        top: 0px;
+        height: 61px;
+        margin-top: 77;
+    }
+    
 </style>
 <div class="banner">
 <table class="auto-style5">
-<tr>
-  <td class="auto-style2">
-     <asp:Image ID="Image1" runat="server" Height="143px" ImageUrl="~/Vista/layout/images/LOGO-SAPPHIRO.png" Width="154px" ImageAlign="Right" />
-  </td>
-  <td class="auto-style4">
-     <div id="logo">
-        <h1 class="titulo" align="center">  SAPPHIRO</h1>
-      <p class="titulo" align="center"> Software Contable Web</p>
-    </div>
-   </td>
-  <td class="auto-style1">
-      <div id="topnav" class="auto-style3">
-      <ul>
-        <li class="active"><a href="Inicio.aspx" shape="rect">INICIO</a></li>
-        <li class="active"><a href="#">CONTÁCTANOS</a></li>
-        <li class="login"><a href="#">LOGIN</a></li>
-      </ul>
-   </div>
-  </td>
-        </tr>
+    <tr>
+        <td class="auto-style2">
+        <asp:Image ID="Image1" runat="server" Height="143px" ImageUrl="~/Vista/layout/images/LOGO-SAPPHIRO.png" Width="154px" ImageAlign="Right" />
+        </td>
+        <td class="auto-style4">
+            <div id="logo">
+            <h1 class="titulo" align="center">  SAPPHIRO</h1>
+            <p class="titulo" align="center"> Software Contable Web</p>
+            </div>
+        </td>
+        <td class="auto-style1">
+            <div id="topnav" class="auto-style3">
+                    <li class="active"><a href="Inicio.aspx" shape="rect">INICIO</a></li>
+                    <li class="active"><a href="#">CONTÁCTANOS</a></li>
+                    <li class="login"><a href="#">LOGIN</a></li>
+            </div>
+         </td>
+    </tr>
 </table>
 
 <div class="wrapper col5">
-  <div id="copyright">
+  <div id="copyright" class="auto-style6">
     <p class="fl_left">Copyright &copy; 2020 - All Rights Reserved - <a href="#">SAPPHIRO</a></p>
     <p class="fl_right"><a target="_blank" href="http://www.sapphiro.com/" title="Free Website Templates"></a></p>
     <br class="clear" />
   </div>
 </div>
 </div>
+</form>
 </body>
 </html>
