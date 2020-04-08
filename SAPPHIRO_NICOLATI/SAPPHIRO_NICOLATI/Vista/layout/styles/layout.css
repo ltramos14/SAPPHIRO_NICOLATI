@@ -30,7 +30,11 @@ a{color:#B2C629; background-color:#FFFFFF; outline:none; text-decoration:none;}
 .fl_left, .imgl{float:left;}
 .fl_right, .imgr{float:right;}
 
-img{display:block; margin:0; padding:0; border:none;}
+img{border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    display:block; margin:0 0 19px 0; 
+    padding:0; }
 .imgl, .imgr{border:1px solid #999999; padding:5px;}
 .imgl{margin:0 8px 8px 0; clear:left;}
 .imgr{margin:0 0 8px 8px; clear:right;}
@@ -49,14 +53,24 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------Generalise------------------------------------- */
 
-#header, #topbar, #homepage, #breadcrumb, #container, #footer, #copyright{display:block; position:relative; width:960px; margin:0 auto;}
+#header, #topbar, #homepage, #breadcrumb, #container, #footer, #copyright{display:block; position:relative; width:1019px; 
+margin:0 auto;
+}
 
 /* ----------------------------------------------Header------------------------------------- */
 
-#header{padding:20px 0; z-index:1000;}
-#header #logo{display:block; float:left; width:300px; overflow:hidden;}
+#header{padding:20px 0; z-index:1000;
+    top: 1px;
+    left: -20px;
+}
+#header #logo{display:block; float:left; width:217px; 
+overflow:hidden;
+    margin-top: 9px;
+}
 #header #logo h1, #header #logo p{margin:0; padding:0; line-height:normal;}
-#header #logo h1{font-size:36px; text-transform:uppercase;}
+#header #logo h1{font-size:36px; text-transform:uppercase;
+    width: 221px;
+}
 #header h1 a{color:#B2C629; background-color:#000000;}
 
 /* ----------------------------------------------BreadCrumb------------------------------------- */
@@ -128,5 +142,9 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 /* ----------------------------------------------Copyright------------------------------------- */
 
-#copyright{padding:10px 0;}
+#copyright{padding:10px 0;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+}
 #copyright p{margin:0; padding:0;}
